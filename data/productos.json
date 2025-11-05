@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camisa Blanca",
+        "precio": 25,
+        "imagen": "assets/img/producto1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalón Jeans",
+        "precio": 40,
+        "imagen": "assets/img/producto2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Zapatos Negro",
+        "precio": 60,
+        "imagen": "assets/img/producto3.jpg"
+    }
+]

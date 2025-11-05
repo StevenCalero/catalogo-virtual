@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Administración</h1>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../cart.html">Carrito</a>
+            <a href="index.html">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Agregar Nuevo Producto</h2>
+        <form id="add-product-form">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="number" id="precio" placeholder="Precio" required>
+            <input type="text" id="imagen" placeholder="URL de imagen" required>
+            <button type="submit">Agregar Producto</button>
+        </form>
+
+        <h2>Lista de Productos</h2>
+        <div id="product-list">
+            <!-- Los productos se cargan dinámicamente -->
+        </div>
+    </main>
+
+    <script src="../assets/js/admin.js"></script>
+</body>
+</html>
